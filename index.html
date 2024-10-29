@@ -2,29 +2,236 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aginflix</title>
-    <link rel="icon" type="image/x-icon" href="logo.png">
     <link rel="stylesheet" href="style.css">
-    
 </head>
-
 <body>
-    
-    <div class= "rectangle1">
-        <img class = "logo" src="logo.png" alt="logo">
-    </div>
-    <div class= "rectangle2"></div>
-    <img class = "bg" src="bg.png" alt="Background">
 
-    <div class="search">
-        <input type="text" placeholder="Email Address">
-        <a href="a">
-           <i class="fas fa-search"></i> 
-        </a>
-    </div>
-   
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#"><img src="logo.png" alt="Aginflix Logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#tv-shows">TV Shows</a></li>
+            <li><a href="#coming-soon">Coming Soon</a></li>
+        </ul>
+        <div class="auth-section">
+            <div class="auth-buttons">
+                <a href="#" class="login-btn">Sign In</a>
+                <a href="#" class="signup-btn">Sign Up</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for movies or shows..." aria-label="Search">
+                <button class="search-btn">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Take <span>your</span> watching <br> experience to the <span>Next Level</span></h1>
+            <a href="#" class="cta-btn">Get Started | Rent Now</a>
+        </div>
+    </section>
+
+    <!-- Movies Section -->
+    <section class="feature-section" id="movies">
+        <h2>Featured Movies</h2>
+        <div class="movie-posters">
+            <div class="movie-poster">
+                <img src="dune.jpg" alt="Dune: Part Two">
+                <p>Dune: Part Two</p>
+                <div class="movie-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="rating-number">(4.0)</span>
+                </div>
+            </div>
+            <div class="movie-poster">
+                <img src="wild.jpg" alt="Wild Robot">
+                <p>Wild Robot</p>
+                <div class="movie-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="rating-number">(3.0)</span>
+                </div>
+            </div>
+            <div class="movie-poster">
+                <img src="deadpool.jpg" alt="Deadpool & Wolverine">
+                <p>Deadpool & Wolverine</p>
+                <div class="movie-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="rating-number">(4.0)</span>
+                </div>
+            </div>
+            <div class="movie-poster">
+                <img src="transformer.png" alt="Transformers One">
+                <p>Transformers One</p>
+                <div class="movie-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="rating-number">(5.0)</span>
+                </div>
+            </div>
+            <div class="movie-poster">
+                <img src="minion.jpg" alt="Despicable Me 4">
+                <p>Despicable Me 4</p>
+                <div class="movie-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="rating-number">(4.0)</span>
+                </div>
+            </div>
+            <div class="movie-poster">
+                <img src="ape.jpg" alt="Kingdom of the Planet of the Apes">
+                <p>Kingdom of the Planet of the Apes</p>
+                <div class="movie-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="rating-number">(5.0)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TV Shows Section -->
+    <section class="feature-section" id="tv-shows">
+        <h2>Popular TV Shows</h2>
+        <div class="movie-posters">
+            <div class="movie-poster">
+                <img src="strangerthings.jpg" alt="Stranger Things">
+                <p>Stranger Things</p>
+                <div class="movie-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="rating-number">(3.0)</span>
+                </div>
+            </div>
+            <div class="movie-poster">
+                <img src="breakingbad.jpg" alt="Breaking Bad">
+                <p>Breaking Bad</p>
+                <div class="movie-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="rating-number">(5.0)</span>
+                </div>
+            </div>
+            <div class="movie-poster">
+                <img src="deathsgame.jpg" alt="Death's Game">
+                <p>Death's Game</p>
+                <div class="movie-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="rating-number">(4.0)</span>
+                </div>
+            </div>
+            <div class="movie-poster">
+                <img src="downfall.jpg" alt="The Downfall Of Diddy">
+                <p>The Downfall Of Diddy</p>
+                <div class="movie-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="rating-number">(3.0)</span>
+                </div>
+            </div>
+            <div class="movie-poster">
+                <img src="loki.jpg" alt="Loki Season 2">
+                <p>Loki Season 2</p>
+                <div class="movie-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="rating-number">(3.0)</span>
+                </div>
+            </div>
+            <div class="movie-poster">
+                <img src="wanderingearth.jpg" alt="The Wandering Earth II">
+                <p>The Wandering Earth II</p>
+                <div class="movie-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="rating-number">(4.0)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coming Soon Section -->
+    <section class="feature-section" id="coming-soon">
+        <h2>Coming Soon..</h2>
+        <div class="movie-posters">
+            <div class="movie-poster">
+                <img src="minecraft.jpg" alt="A Minecraft Movie">
+                <p>A Minecraft Movie</p>
+            </div>
+            <div class="movie-poster">
+                <img src="captainamerica.jpg" alt="Captain America: Brave New World">
+                <p>Captain America: Brave New World</p>
+            </div>
+            <div class="movie-poster">
+                <img src="spiderman.jpg" alt="Spider-Man: Beyond the Spider-Verse">
+                <p>Spider-Man: Beyond the Spider-Verse</p>
+            </div>
+            <div class="movie-poster">
+                <img src="ballerina.jpg" alt="Ballerina">
+                <p>Ballerina</p>
+            </div>
+            <div class="movie-poster">
+                <img src="snowwhite.jpg" alt="Snow White">
+                <p>Snow White</p>
+            </div>
+            <div class="movie-poster">
+                <img src="paddington.jpg" alt="Paddington">
+                <p>Paddington</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Aginflix. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
